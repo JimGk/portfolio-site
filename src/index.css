@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .prose-center {
+    @apply prose prose-invert text-center;
+  }
+}
+
+@layer base {
+  /* center all text by default, keep nav left-aligned */
+  body, .section { @apply text-center; }
+  nav           { @apply text-left; }
+
+  /* full-height flex root */
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  #root > div {
+    display: flex;
+    height: 100%;
+  }
+
+  /* smooth scrolling */
+  html, body {
+    scroll-behavior: smooth;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    /* always full-width and at least viewport-high, center content */
+    @apply w-full min-h-screen snap-start flex flex-col items-center justify-center text-center;
+
+    /* mobile padding */
+    @apply px-4 py-16;
+
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* on lg+ enforce exact 100vh and big “splash” padding */
+  @screen lg {
+    .section {
+      height: 100vh;
+      padding-left:   theme('spacing.section-x-lg');
+      padding-right:  theme('spacing.section-x-lg');
+      padding-top:    theme('spacing.section-y-lg');
+      padding-bottom: theme('spacing.section-y-lg');
+    }
+  }
+
+  /* gradient overlay */
+  .section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, theme('colors.primary'), theme('colors.secondary'));
+    background-size: 400% 400%;
+    animation: gradient-bg 12s ease infinite;
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* inherit text color everywhere */
+  h1, h2, h3, h4, p, a, li, span, button {
+    @apply text-inherit;
+  }
+}
