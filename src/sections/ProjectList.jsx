@@ -8,11 +8,11 @@ Modal.setAppElement('#root');
 const projects = [
   {
     title: 'Customer Insights Notebook',
-    description: 'Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
+    description: 'Work In Progress - - - Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
     repo: 'https://github.com/JimGk/dc_product_sales/blob/main/notebooks/dc_product_sales_eda.ipynb'
   },
   {
-    title: 'RCA Automation',
+    title: 'Work In Progress - - -  RCA Automation',
     description: 'Excel automation with Python to clean, transform, and visualize RCA data. Includes anonymized dataset.',
     repo: 'https://github.com/yourusername/ga-rca-automation'
   },
@@ -22,7 +22,7 @@ const projects = [
     repo: 'https://github.com/JimGk/Sample_Spreadsheets/blob/main/Spreadsheets%20-%20Demo.pdf'
   },
   {
-    title: 'Business KPIs in Power BI',
+    title: 'Work In Progress - - -  Business KPIs in Power BI',
     description: 'Interactive Power BI dashboard with filters, time-based metrics, and DAX-calculated KPIs.',
     repo: 'https://github.com/yourusername/power-bi-kpis'
   },
@@ -32,7 +32,7 @@ const projects = [
     repo: 'https://github.com/JimGk/SQL-migration/tree/main'
   },
   {
-    title: 'Enterprise ETL Pipeline',
+    title: 'Work In Progress - - -  Enterprise ETL Pipeline',
     description: 'Snowflake + Airflow ETL pipeline using Python and SQL to orchestrate daily data ingestion and transformation.',
     repo: 'https://github.com/yourusername/etl-pipeline'
   }

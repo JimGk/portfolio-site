@@ -68,18 +68,18 @@ export default function Navbar() {
 
         {/* Utilities */}
         <div className="flex flex-col items-center space-y-4 mt-6">
-          {utilities.map(({ icon, href }, i) => (
-            <a
-              key={i}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white text-xl"
-            >
-              {icon}
-            </a>
-          ))}
-        </div>
+  {utilities.map(({ icon, href }, i) => (
+    <a
+      key={i}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white text-xl"
+    >
+      {icon}
+    </a>
+  ))}
+</div>
       </nav>
     </>
   )
