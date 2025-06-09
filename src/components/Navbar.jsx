@@ -30,8 +30,6 @@ export default function Navbar() {
           <a
             key={to}
             href={to}
-            target="_blank"
-            rel="noopener noreferrer"
             className="text-white text-2xl"
           >
             {icon}
@@ -57,8 +55,6 @@ export default function Navbar() {
             <a
               key={to}
               href={to}
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-white text-2xl"
             >
               {icon}
@@ -68,18 +64,22 @@ export default function Navbar() {
 
         {/* Utilities */}
         <div className="flex flex-col items-center space-y-4 mt-6">
-  {utilities.map(({ icon, href }, i) => (
-    <a
-      key={i}
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-white text-xl"
-    >
-      {icon}
-    </a>
-  ))}
-</div>
+          {utilities.map(({ icon, href }, i) => (
+            <a
+              key={i}
+              href={href}
+              // only LinkedIn and GitHub open in a new tab
+              {...(
+                href.includes('linkedin.com') || href.includes('github.com')
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {}
+              )}
+              className="text-white text-xl"
+            >
+              {icon}
+            </a>
+          ))}
+        </div>
       </nav>
     </>
   )
