@@ -17,9 +17,9 @@ export default function Navbar() {
   ]
 
   const utilities = [
-    { icon: <HiOutlineMail />,   href: 'mailto:…' },
-    { icon: <FaLinkedin />,      href: 'https://…' },
-    { icon: <FaGithub />,        href: 'https://…' },
+    { icon: <HiOutlineMail />,   href: 'mailto:dimitrios.gogos@proton.me' },
+    { icon: <FaLinkedin />,      href: 'https://www.linkedin.com/in/dimitrios-gogos-57a1b7231/' },
+    { icon: <FaGithub />,        href: 'https://github.com/JimGk' },
   ]
 
   return (
