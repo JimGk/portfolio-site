@@ -22,9 +22,9 @@ const projects = [
     repo: 'https://github.com/JimGk/Sample_Spreadsheets/blob/main/Spreadsheets%20-%20Demo.pdf'
   },
   {
-    title: 'Work In Progress - Business KPIs in Power BI',
-    description: 'Work In Progress - - - Interactive Power BI dashboard with filters, time-based metrics, and DAX-calculated KPIs.',
-    repo: 'https://github.com/yourusername/power-bi-kpis'
+    title: 'Advanced SQL queries',
+    description: 'The queries showcase real-world skills in data aggregation, temporal analysis, anomaly detection, and reporting—all written in clean, efficient PostgreSQL.',
+    repo: 'https://github.com/JimGk/SQL-migration/blob/main/validation/advanced_sql_queries.sql'
   },
   {
     title: 'MySQL migration to postgreSQL',
@@ -34,7 +34,7 @@ const projects = [
   {
     title: 'Work In Progress - Enterprise ETL Pipeline',
     description: 'Work In Progress - - - Snowflake + Airflow ETL pipeline using Python and SQL to orchestrate daily data ingestion and transformation.',
-    repo: 'https://github.com/yourusername/etl-pipeline'
+    repo: 'https://github.com/JimGk/etl-pipeline/tree/main'
   }
 ];
 
