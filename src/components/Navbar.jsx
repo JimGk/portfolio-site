@@ -27,7 +27,13 @@ export default function Navbar() {
       {/* Mobile: bottom bar */}
       <nav className="fixed bottom-0 left-0 right-0 bg-gray-900/80 backdrop-blur-md flex justify-around py-2 sm:hidden z-50">
         {items.map(({ icon, to }) => (
-          <a key={to} href={to} className="text-white text-2xl">
+          <a
+            key={to}
+            href={to}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl"
+          >
             {icon}
           </a>
         ))}
@@ -48,7 +54,13 @@ export default function Navbar() {
         {/* Sections */}
         <div className="flex-1 flex flex-col items-center space-y-6">
           {items.map(({ icon, to }) => (
-            <a key={to} href={to} className="text-white text-2xl">
+            <a
+              key={to}
+              href={to}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-2xl"
+            >
               {icon}
             </a>
           ))}
@@ -57,7 +69,13 @@ export default function Navbar() {
         {/* Utilities */}
         <div className="flex flex-col items-center space-y-4 mt-6">
           {utilities.map(({ icon, href }, i) => (
-            <a key={i} href={href} className="text-white text-xl">
+            <a
+              key={i}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-xl"
+            >
               {icon}
             </a>
           ))}

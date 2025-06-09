@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'Customer Insights Notebook',
     description: 'Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
-    repo: 'https://github.com/yourusername/customer-insights-notebook'
+    repo: 'https://github.com/JimGk/dc_product_sales/blob/main/notebooks/dc_product_sales_eda.ipynb'
   },
   {
     title: 'RCA Automation',
@@ -17,9 +17,9 @@ const projects = [
     repo: 'https://github.com/yourusername/ga-rca-automation'
   },
   {
-    title: 'Excel Analysis Report',
-    description: 'Standalone sample with pivots, formulas, and formatting exported as styled PDF.',
-    repo: 'https://github.com/yourusername/excel-analysis-report'
+    title: 'Excel Analysis Samples',
+    description: 'Standalone samples with pivots, formulas, and formatting exported as PDF with randomized and anonymized data.',
+    repo: 'https://github.com/JimGk/Sample_Spreadsheets/blob/main/Spreadsheets%20-%20Demo.pdf'
   },
   {
     title: 'Business KPIs in Power BI',
@@ -27,9 +27,9 @@ const projects = [
     repo: 'https://github.com/yourusername/power-bi-kpis'
   },
   {
-    title: 'SQL Analytics with Python',
-    description: 'Backend PostgreSQL with Python queries using SQLAlchemy and Pandas to extract and analyze data.',
-    repo: 'https://github.com/yourusername/sql-python-analysis'
+    title: 'MySQL migration to postgreSQL',
+    description: 'This project simulates a sample database migration from a legacy schema to a modern PostgreSQL system. It includes schema design, data import, SQL-based data transformation, and post-migration validation.',
+    repo: 'https://github.com/JimGk/SQL-migration/tree/main'
   },
   {
     title: 'Enterprise ETL Pipeline',
