@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-xl sm:text-2xl lg:text-3xl mb-12 max-w-2xl mx-auto"
         >
-          Data Analyst & Automation Expert — turning raw data into clear, actionable insights.
+          Data Professional & Analytics Engineer — turning raw data into clear, actionable insights.
         </motion.p>
 
         {/* Sparkline */}
