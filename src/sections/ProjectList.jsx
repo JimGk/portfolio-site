@@ -6,12 +6,36 @@ import { motion } from 'framer-motion';
 Modal.setAppElement('#root');
 
 const projects = [
-  { title: 'Sales Dashboard',    description: 'React & D3 dashboard …',       repo: 'https://github.com/you/sales-dashboard' },
-  { title: 'Churn Model',        description: 'Flask & ML backend …',        repo: 'https://github.com/you/churn-model' },
-  { title: 'Automation Toolkit', description: 'Python CLI toolkit …',         repo: 'https://github.com/you/toolkit' },
-  { title: 'Data Warehouse ETL', description: 'Airflow DAGs & Snowflake …',   repo: 'https://github.com/you/etl' },
-  { title: 'Interactive Map',    description: 'Leaflet + React map …',        repo: 'https://github.com/you/map' },
-  { title: 'CLI Reporter',       description: 'Node.js CLI for reporting …',    repo: 'https://github.com/you/cli-report' }
+  {
+    title: 'Customer Insights Notebook',
+    description: 'Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
+    repo: 'https://github.com/yourusername/customer-insights-notebook'
+  },
+  {
+    title: 'RCA Automation',
+    description: 'Excel automation with Python to clean, transform, and visualize RCA data. Includes anonymized dataset.',
+    repo: 'https://github.com/yourusername/ga-rca-automation'
+  },
+  {
+    title: 'Excel Analysis Report',
+    description: 'Standalone sample with pivots, formulas, and formatting exported as styled PDF.',
+    repo: 'https://github.com/yourusername/excel-analysis-report'
+  },
+  {
+    title: 'Business KPIs in Power BI',
+    description: 'Interactive Power BI dashboard with filters, time-based metrics, and DAX-calculated KPIs.',
+    repo: 'https://github.com/yourusername/power-bi-kpis'
+  },
+  {
+    title: 'SQL Analytics with Python',
+    description: 'Backend PostgreSQL with Python queries using SQLAlchemy and Pandas to extract and analyze data.',
+    repo: 'https://github.com/yourusername/sql-python-analysis'
+  },
+  {
+    title: 'Enterprise ETL Pipeline',
+    description: 'Snowflake + Airflow ETL pipeline using Python and SQL to orchestrate daily data ingestion and transformation.',
+    repo: 'https://github.com/yourusername/etl-pipeline'
+  }
 ];
 
 export default function ProjectList() {
