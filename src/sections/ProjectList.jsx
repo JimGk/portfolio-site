@@ -7,19 +7,19 @@ Modal.setAppElement('#root');
 
 const projects = [
   {
-    title: 'Customer Insights Notebook',
-    description: 'Work In Progress - - - Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
+    title: 'Streamlit-Powered QA Dashboard',
+    description: 'An interactive web app that sits on top of processed data and lets stakeholders explore key QA metrics.',
+    repo: 'https://rcadashboardpy-ctd4l5xx9yeiyfmor2oqx3.streamlit.app/'
+  },
+  {
+    title: 'Airlines Data-Processing CLI Tool',
+    description: 'A standalone Python script with a console-based workflow.. Includes anonymized dataset.',
+    repo: 'https://github.com/JimGk/airlines_qa_dashboard/blob/main/rca_breakdown.py'
+  },
+  {
+    title: 'Customer Insights',
+    description: 'Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
     repo: 'https://github.com/JimGk/dc_product_sales/blob/main/notebooks/dc_product_sales_eda.ipynb'
-  },
-  {
-    title: 'Work In Progress - RCA Automation',
-    description: 'Work In Progress - - - Excel automation with Python to clean, transform, and visualize RCA data. Includes anonymized dataset.',
-    repo: 'https://github.com/yourusername/ga-rca-automation'
-  },
-  {
-    title: 'Excel Analysis Samples',
-    description: 'Standalone samples with pivots, formulas, and formatting exported as PDF with randomized and anonymized data.',
-    repo: 'https://github.com/JimGk/Sample_Spreadsheets/blob/main/Spreadsheets%20-%20Demo.pdf'
   },
   {
     title: 'Advanced SQL queries',
@@ -27,14 +27,14 @@ const projects = [
     repo: 'https://github.com/JimGk/SQL-migration/blob/main/validation/advanced_sql_queries.sql'
   },
   {
-    title: 'MySQL migration to postgreSQL',
-    description: 'This project simulates a sample database migration from a legacy schema to a modern PostgreSQL system. It includes schema design, data import, SQL-based data transformation, and post-migration validation.',
-    repo: 'https://github.com/JimGk/SQL-migration/tree/main'
+    title: 'Penguins Linear Regression',
+    description: 'This learning project focuses on deepening understanding of statistical modeling by applying OLS linear regression using the statsmodels library on the Palmer Penguins dataset.',
+    repo: 'https://github.com/JimGk/penguins-linear-regression-model/blob/main/penguins.ipynb'
   },
   {
-    title: 'Work In Progress - Enterprise ETL Pipeline',
-    description: 'Work In Progress - - - Snowflake + Airflow ETL pipeline using Python and SQL to orchestrate daily data ingestion and transformation.',
-    repo: 'https://github.com/JimGk/etl-pipeline/tree/main'
+    title: 'Excel Analysis Sample',
+    description: 'Standalone samples with pivots, formulas, and formatting exported as PDF with randomized and anonymized data.',
+    repo: 'https://github.com/JimGk/Sample_Spreadsheets/blob/main/Spreadsheets%20-%20Demo.pdf'
   }
 ];
 
