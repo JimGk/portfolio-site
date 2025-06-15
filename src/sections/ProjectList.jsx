@@ -19,7 +19,7 @@ const projects = [
   {
     title: 'Customer Insights',
     description: 'Jupyter EDA project showcasing KPIs, trends, and visual analysis on customer data.',
-    repo: 'https://github.com/JimGk/dc_product_sales/blob/main/notebooks/dc_product_sales_eda.ipynb'
+    repo: 'https://github.com/JimGk/dc_product_sales/blob/main/notebooks/sales_method_analysis.ipynb'
   },
   {
     title: 'Advanced SQL queries',
