@@ -10,13 +10,13 @@ export default function Hero() {
   {
     end: 95,
     suffix: '%',
-    label: 'Time Savings'
+    label: 'Processing Time Cut',
     // 120 hrs → 6 hrs = 95% reduction in processing time
   },
   {
     end: 92,
     suffix: '%',
-    label: 'Reporting Speed-Up'
+    label: 'Faster Report Generation'
     // 6 hrs → 0.5 hrs ≈ 92% faster report generation
   },
   {

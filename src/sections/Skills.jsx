@@ -7,7 +7,6 @@ import {
   FaFileExcel,
   FaChartBar,
   FaRobot,
-  FaCog,
   FaGithub,
   FaCodeBranch,
   FaTerminal

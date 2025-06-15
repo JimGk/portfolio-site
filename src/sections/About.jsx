@@ -13,9 +13,7 @@ export default function About() {
       <div className="w-full max-w-3xl mx-auto text-center space-y-6 px-4 lg:px-0">
         <h2 className="text-4xl font-heading">About Me</h2>
         <p className="text-lg leading-relaxed">
-          Former musician in entertainment and research. Driven by a lifelong curiosity, I blend creative problem-solving (rooted in my music degree) with razor-sharp logic to tame data chaos.
-          From slashing a 120-hour Excel process to 6 hours with Python scripts, to building a 30-minute, multi-market reporting engine, I automate everything in sight.
-          Whether it’s Python, SQL, or VBA, I design scalable tools that turn complexity into clarity, and I’m just getting started.
+          Curious by nature and driven by impact, I specialize in turning complex, messy data into clean, actionable insights. I design scalable solutions using Python, SQL, and VBA—automating manual processes, reducing hours of work to minutes, and delivering reports that people can trust. From building multi-market reporting engines to streamlining operations, I bring speed, structure, and precision to every project. Always learning, always optimizing.
         </p>
         <motion.a
           href={resume}
